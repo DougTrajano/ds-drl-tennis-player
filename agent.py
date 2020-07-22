@@ -29,7 +29,6 @@ class Agent(BaseEstimator):
                 gamma=0.99, tau=1e-3, lr_actor=1e-4, lr_critic=1e-4, weight_decay=0.0, actor_units=(256, 128),
                 critic_units=(256, 128), action_range=None):
         """Initialize an Agent object.
-
         Params
         ======
             state_size (int): dimension of each state
@@ -46,7 +45,6 @@ class Agent(BaseEstimator):
             critic_units (tuple): A tuple with numbers of nodes in 1st and 2nd hidden layer for critic network
             action_min (int or float): The min value in the action range
             action_max (int or float): The max value in the action range
-
         """
         self.state_size = state_size
         self.action_size = action_size
