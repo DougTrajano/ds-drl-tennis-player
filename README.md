@@ -1,6 +1,6 @@
 # Playing Tennis with Deep Reinforcement Learning
 
-![](images/tennis_agent.gif)
+![](images/agents_playing.gif)
 
 
 This project contains an agent based on **Deep Reinforcement Learning** that can learn from zero (no labeled data) to play Tennis. \o/

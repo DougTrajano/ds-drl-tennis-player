@@ -1,0 +1,1 @@
+{"action_range": [-1, 1], "action_size": 2, "actor_units": [256, 128], "batch_size": 32, "critic_units": [256, 128], "gamma": 0.99, "lr_actor": 0.0001, "lr_critic": 0.0001, "memory_size": 1000000, "random_seed": 399, "state_size": 24, "tau": 0.001, "weight_decay": 0.0}
